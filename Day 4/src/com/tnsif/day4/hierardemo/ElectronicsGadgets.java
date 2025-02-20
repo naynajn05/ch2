@@ -6,11 +6,17 @@ public class ElectronicsGadgets {
 	private String name;
 	private float price;
 	private String category;
+	
 	public ElectronicsGadgets() {
-		super();
-	}
+		System.out.println("Default Constructor");
+		name="Microwave";
+		price=22000f;
+		category="Kitchen";
+		
+				
+				}
 	public ElectronicsGadgets(String name, float price, String category) {
-		super();
+		
 		this.name = name;
 		this.price = price;
 		this.category = category;
